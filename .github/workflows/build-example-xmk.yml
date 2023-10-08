@@ -8,5 +8,7 @@ jobs:
   build:
     uses: ./.github/workflows/main.yml
     with:
-      keyboard: '["converter/xmk"]'
+      keyboard: '["cantor"]'
       merge: '["manna-harbour/qmk_firmware/xmk"]'
+      alphas: '["colemak"]'
+      
